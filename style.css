@@ -167,3 +167,44 @@ footer p, footer a { color: var(--muted); font-size: .85rem; }
     height: 350px;
   }
 }
+
+.inquiry-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.inquiry-form label {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.inquiry-form input,
+.inquiry-form select,
+.inquiry-form textarea {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  background: #111827;
+  color: #ffffff;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.inquiry-form button {
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.inquiry-form button:hover {
+  background: #1d4ed8;
+}

@@ -2,6 +2,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  
+<title>Fintech Private Limited | IT Solutions & Software Development</title>
+
+<meta
+  name="description"
+  content="Fintech Private Limited provides web development, app development, software solutions and IT consulting services."
+>
+
+<meta
+  name="keywords"
+  content="Fintech Private Limited, IT solutions, web development, software development, app development"
+>
+
+<meta name="robots" content="index, follow">
+
+<link
+  rel="canonical"
+  href="https://fintech-website-vert.vercel.app/"
+>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Fintech Private Limited - IT services, software development and fintech solutions.">
@@ -141,18 +160,46 @@
   </div>
 </section>
 
-<!-- Inquiry Section -->
-<section class="inquiry-section" id="inquiry">
-  <div class="inquiry-container">
 
-    <div class="inquiry-heading">
-      <span class="inquiry-label">GET IN TOUCH</span>
-      <h2>Submit Your Inquiry</h2>
-      <p>
-        Tell us about your project and our team
-        will get back to you.
-      </p>
-    </div>
+<form action="https://formspree.io/f/https://formspree.io/f/xgavedjl" method="POST" class="inquiry-form">
+  <label for="name">Full Name</label>
+  <input
+    type="text"
+    id="name"
+    name="name"
+    placeholder="Enter your name"
+    required
+  >
+
+  <label for="email">Email Address</label>
+  <input
+    type="email"
+    id="email"
+    name="email"
+    placeholder="Enter your email"
+    required
+  >
+
+  <label for="inquiry">Select Inquiry</label>
+  <select id="inquiry" name="inquiry" required>
+    <option value="">Choose an inquiry type</option>
+    <option value="Web Development">Web Development</option>
+    <option value="App Development">App Development</option>
+    <option value="IT Consulting">IT Consulting</option>
+    <option value="Other">Other</option>
+  </select>
+
+  <label for="requirement">About Your Requirement</label>
+  <textarea
+    id="requirement"
+    name="requirement"
+    placeholder="Tell us about your project..."
+    rows="5"
+    required
+  ></textarea>
+
+  <button type="submit">Submit Inquiry</button>
+</form>
 </body>
 </html>
 
