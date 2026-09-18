@@ -28,13 +28,29 @@ a { color: inherit; text-decoration: none; }
   min-height: 76px; display: flex; align-items: center;
   justify-content: space-between; padding: 0 24px;
 }
-.logo { font-size: 1.2rem; font-weight: 800; letter-spacing: 1px; }
+.logo {
+    font-size: 1.2rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.logo {
+    font-size: 1.2rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
 .logo span {
-    margin-left: 8px;
     color: white;
     font-weight: 800;
     letter-spacing: 1px;
 }
+
 .logo img {
     width: 42px;
     height: 42px;
